@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+  <head>
+    <title>SWE 642 Website HW 1</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+
+    <section class="w3-container">
+    <div><p><h1>Student Survey Form</h1></p></div>
+    <table border="5" style="width:50%">
+
+     <tr>
+       <td>
+         <!--Begin table-->
+         <form action="" method="" autocomplete="on">
+           <p>
+             <label class="survey_input">Username (required)</label><br>
+             <input type="text" name="username" autofocus required>
+           </p>
+           <p>
+             <label class="survey_input">Street address (required)</label><br>
+             <input type="text" name="address" required>
+           </p>
+           <p>
+             <label class="survey_input">City (required)</label><br>
+             <input type="text" name="city" required>
+           </p>
+           <p>
+             <label class="survey_input">State (required)</label><br>
+             <input type="text" name="state" required>
+           </p>
+           <p>
+             <label class="survey_input">Zipcode (required)</label><br>
+             <input type="text" name="zipcode" required>
+           </p>
+           <p>
+             <label class="survey_input">Telephone (required)</label><br>
+             <input type="tel" name="telephone" placeholder="xxx-xxx-xxxx" required>
+           </p>
+           <p>
+             <label class="survey_input">Email (required)</label><br>
+             <input type="email" name="email" placeholder="example@gmu.edu" required>
+           </p>
+           <p>
+             <label class="survey_input">URL</label><br>
+             <input type="url" name="url"placeholder="www.gmu.edu">
+           </p>
+           <p>
+             <label class="survey_input">Date submitted (required)</label><br>
+             <input type="date" name="date" required>
+           </p>
+           <p>
+             <label class="survey_input">What did you like about GMU?</label><br>
+             <input type="checkbox" name="" id="5">
+             <label for="5">Students</label>
+               <br>
+             <input type="checkbox" name="" id="6">
+             <label for="6">Location</label>
+               <br>
+             <input type="checkbox" name="" id="7">
+             <label for="7">Campus</label>
+               <br>
+             <input type="checkbox" name="" id="8">
+             <label for="8">Atmosphere</label>
+               <br>
+             <input type="checkbox" name="" id="9">
+             <label for="9">Dorm Rooms</label>
+               <br>
+             <input type="checkbox" name="" id="10">
+             <label for="10">Sports</label>
+               <br>
+           </p>
+           <p>
+             <label class="survey_input">How did you become intersted in GMU?</label><br>
+             <input type="radio" name="interest" id="1">
+             <label for="1">Friends</label>
+             <br>
+             <input type="radio" name="interest" id="2">
+             <label for="2">Television
+             <br>
+             <input type="radio" name="interest" id="3">
+             <label for="3">Internet
+             <br>
+             <input type="radio" name="interest" id="4">
+             <label for="4">Other
+             <br>
+           </p>
+           <p>
+             <label class="survey_input">Additional Comments</label><br>
+             <textarea name="name" rows="8" cols="50"></textarea>
+           </p>
+           <p>
+             <label class="survey_input">High-school graduation month</label><br>
+             <input list="months">
+             <datalist id="months">
+             <option value="January">
+             <option value="February">
+             <option value="March">
+             <option value="April">
+             <option value="June">
+             <option value="July">
+             <option value="August">
+             <option value="September">
+             <option value="October">
+             <option value="November">
+             <option value="December">
+             </datalist>
+           </p>
+           <p>
+             <label class="survey_input">High-school graduation year</label><br>
+             <input type="year" name="hsyear" value="">
+           </p>
+          <p>
+            <label class="survey_input">How likely are you to recommend GMU to a friend?</label><br>
+            <select>
+            <option value="vl">Very Likely</option>
+            <option value="l">Likely</option>
+            <option value="ul">Unlikely</option>
+            </select>
+          </p>
+
+          <p>
+            <label class="survey_input">Raffle: enter ten comma seperated numbers between 1 and 100</label><br>
+            <input type="text" name="" value="">
+          </p>
+
+           <button>Submit Survey</button>
+           <button type="reset">Reset form</button>
+         </form>
+         <!--End table-->
+       </td>
+     </tr>
+    </table>
+    </section>
+  </body>
+</html>

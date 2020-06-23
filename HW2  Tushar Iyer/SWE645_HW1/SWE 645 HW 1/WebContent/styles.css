@@ -1,0 +1,26 @@
+  body  {
+    background-image: url("gmu.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #eeeeee
+  }
+
+  h1   {
+    color: blue;
+    text-shadow: -2px 2px 4px dimgrey;
+  }
+
+  h2  {color: #FFCC33;}
+  .survey_input  {
+    font-style: italic;
+    color:#006633
+  }
+
+  div {
+    box-shadow: 5px 10px lightgrey;
+    background-color: lightgrey;
+    width: 50%;
+    border: 5px solid blue;
+    text-align: center;
+  }
